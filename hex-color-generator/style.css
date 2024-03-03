@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(255, 241, 205) !important;
+}
+
+.sectionone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#genbtn{
+  background-color: rgb(0, 115, 255);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 30px;
+  transition: 0.4s;
+  cursor: pointer;
+  max-width: 40vw;
+  margin: auto;
+}
+
+#genbtn:hover{
+  scale: 0.98;
+  background-color: rgb(1, 100, 221);
+}
+
+#copybtn{
+  background-color: rgb(0, 170, 88);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 30px;
+  transition: 0.4s;
+  cursor: pointer;
+  max-width: 40vw;
+  margin: auto;
+}
+
+#copybtn:hover{
+  scale: 0.98;
+  background-color: rgb(0, 134, 69);
+}
+
+.hex-box{
+  margin-top: 2vh;
+  width: 50vw;
+  height: 30vh;
+  border: solid 2px hsla(0, 0%, 0%, 0.584);
+  background-color: #0000ff;
+  border-radius: 5px;
+}
+
+.title p:nth-child(1){
+  text-shadow: 0px 1px 2px rgb(0, 0, 0);
+  color: hsl(241, 100%, 50%);
+}
+
+.title h1{
+  color: rgb(73, 255, 201);
+  text-shadow: 0px 1px 2px rgb(0, 0, 0);
+}
